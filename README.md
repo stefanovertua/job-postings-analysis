@@ -15,7 +15,6 @@ The Looker Studio dashboard can be downloaded in pdf format [here](Hiring_trends
 
 The report offers a detailed visualization of job applications and hiring trends for Data Analyst roles in 2019. It highlights key metrics such as hiring rates, applicant distribution by job title and location, and temporal trends. 
 
-This project leverages Looker Studio’s capabilities to create an interactive dashboard that visualizes key trends and delivers actionable insights for optimizing recruitment strategies and addressing talent shortages in the data analytics field.
 
 
 ## **Table of Contents** <br>
