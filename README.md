@@ -38,6 +38,8 @@ The database is made up of six columns:
 + Easy Apply, a binary variable showing whether the application was submitted directly on the agency's website (TRUE) or through other methods such as email (FALSE) <br>
 
 
+
+
 ## Methodology
 
 The Google Sheet was imported directly to Looker Studio, without modifying the spreadsheet.
