@@ -2,7 +2,7 @@
 
 ## Overview
 
-Data analysts have become indispensable across industries as organizations increasingly adopt data-driven strategies. The growing reliance on data as a core asset has driven a significant surge in demand for skilled professionals. However, the available talent pool has not kept pace, leaving many companies struggling to fill roles and fully leverage data for competitive advantage.
+Data analysts have become indispensable across industries as organizations increasingly adopt data-driven strategies. However, the available talent pool has not kept pace, leaving many companies struggling to fill roles and fully leverage data for competitive advantage.
 
 The objective of this analysis is to provide an overview of job postings for Data Analyst roles across all 50 US states in 2019, using data sourced from the popular job platform Glassdoor.
 The purpose of the study is also to answer the following questions:
@@ -13,7 +13,7 @@ The purpose of the study is also to answer the following questions:
 The analysis was conducted using Looker Studio (formerly Google Data Studio) and is based on a dataset that can be downloaded [here](2019_data_analyst_job.csv).
 The Looker Studio dashboard can be downloaded in pdf format [here](Hiring_trends_for_data_analyst_positions_Dashboard.pdf).
 
-The report offers a detailed visualization of job applications and hiring trends for Data Analyst roles in 2019. It highlights key metrics such as hiring rates, applicant distribution by job title and location, and temporal trends. By providing a comprehensive breakdown of these insights, the project is a valuable resource for understanding recruitment patterns, identifying high-demand roles, and informing workforce planning strategies.
+The report offers a detailed visualization of job applications and hiring trends for Data Analyst roles in 2019. It highlights key metrics such as hiring rates, applicant distribution by job title and location, and temporal trends. 
 
 This project leverages Looker Studio’s capabilities to create an interactive dashboard that visualizes key trends and delivers actionable insights for optimizing recruitment strategies and addressing talent shortages in the data analytics field.
 
@@ -28,19 +28,15 @@ This project leverages Looker Studio’s capabilities to create an interactive d
 ## Dataset
 
 
-The dataset for this analysis was obtained from Kaggle and focuses on job applications for Data Analyst positions in the year 2019. It comprises over 32,000 entries.
+The dataset for this analysis was obtained from Kaggle and comprises over 32,000 entries.
+The database is made up of six columns:
 
-The dataset was obtain from Kaggle. 
-The year is 2019
-
-The dataset, containing more than 32k entries, is made up of six columns:
-
-ID:	Unique identifier for the applicants	
-Date	The date when the application was received
-Job Title:	The data analytics position applied for	
-Job Location	The city where the job is located	
-Hired	A binary variable indicating whether the applicant was hired (TRUE) or not (FALSE).
-Easy Apply	A binary variable showing whether the application was submitted directly on the agency's website (TRUE) or through other methods such as email (FALSE).
++ ID, the unique identifier for the applicants	<br>
++ Date, when the application was received <br>
++ Job Title, the data analytics position applied for <br>	
++ Job Location, the city where the job is located <br>	
++ Hired, A binary variable indicating whether the applicant was hired (TRUE) or not (FALSE) <br>
++ Easy Apply, a binary variable showing whether the application was submitted directly on the agency's website (TRUE) or through other methods such as email (FALSE) <br>
 
 
 ## Methodology
@@ -79,8 +75,8 @@ The analysis of hiring trends for Data Analyst roles reveals several important p
 
 + The Digital Marketing Data Analyst role stands out with the highest hiring success rate of 99.95%, highlighting a strong alignment between candidate profiles and job requirements. Similarly, Manufacturing Data Analyst (22.91%) and Data Quality Analyst (20.77%) roles demonstrate high demand for specialized skills. In contrast, roles such as QA Data Analyst (4.68%) and Clinical Data Analyst (5.1%) have lower hiring rates, likely due to intense competition or stricter qualification standards.
 + The data also shows seasonal fluctuations in application volumes, with a peak in July when 3,138 applications were submitted. However, the number of hires remains relatively stable throughout the year, suggesting that hiring decisions are not heavily influenced by application surges.
-+ Geographical trends reveal that New York, NY, attracted the highest number of applications (4,650), followed by Chicago, IL, and San Francisco, CA, reaffirming their importance as major data-driven job markets. Interestingly, Austin, TX, and Charlotte, NC, rank disproportionately high in job applications compared to their population sizes, reflecting their rapid growth as metropolitan areas. Conversely, Washington, DC, despite being the 7th most populous city, shows lower application volumes, likely due to its government-focused economy.
-Los Angeles, CA, and San Diego, CA, show notably higher hiring rates at 22.67% and 22.81%, respectively, indicating strong demand for Data Analyst roles in these regions. The top 10 cities collectively account for nearly half of all job applications, emphasizing the concentration of opportunities in major metropolitan areas. 
++ Geographical trends reveal that New York City attracted the highest number of applications (4,650), followed by Chicago and San Francisco. This confirms their importance as major data-driven job markets. Interestingly, Austin, TX, and Charlotte, NC, rank disproportionately high in job applications compared to their population sizes, reflecting their rapid growth as metropolitan areas. Austin ranks as the 5th city by job applications, despite being ranked 26th in population according to the 2020 US Census. Similarly, Charlotte ranks as the 6th city by job applications, while it is only 22nd in population. This is not surprising, considering that both Austin and Charlotte have been among the fastest-growing metropolitan areas in the country. On the other hand, Washington, DC is a clear outliner. Despite being the 7th most populous city, shows lower application volumes, given that the capital's economy is primarily driven by governmental jobs.
+Los Angeles and San Diego, show notably higher hiring rates at 22.67% and 22.81%, respectively, indicating strong demand for Data Analyst roles in these regions. The top 10 cities collectively account for nearly half of all job applications, emphasizing the concentration of opportunities in major metropolitan areas. 
 + Business Data Analyst and Data Quality Analyst roles dominate in terms of application volume, with 23.7% and 19%, respectively, demonstrating their popularity among candidates. Emerging roles like Digital Marketing Data Analyst and Ecommerce Data Analyst reflect evolving industry demands for specialized skills.
 
 ![Screenshot (3)](https://github.com/user-attachments/assets/fe15d863-eb11-4d4d-81d3-853392b55295)
