@@ -27,7 +27,7 @@ The report offers a detailed visualization of job applications and hiring trends
 ## Dataset
 
 
-The dataset for this analysis was obtained from Kaggle and comprises over 32,000 entries.
+The dataset for this analysis was obtained from Kaggle and comprises over 32,000 rows.
 The database is made up of six columns:
 
 + ID, the unique identifier for the applicants	<br>
@@ -47,8 +47,7 @@ Dynamic filters were added to the dashboard, allowing users to filter data by jo
 The dashboard features three main types of charts to visualize the data effectively.
 Bar charts and line graphs highlight comparisons, such as applications versus hires over time. Pie charts display percentage distributions of applications and hires across different job titles and locations. For the “job title breakdown” and “job location breakdown” sections, users can sort values to customize their view. Summary metrics are displayed at the top of the dashboard, providing a quick overview of key data points, including total applicants (32,596), total hires (7,002), and the overall hiring rate (21.48%).
 
-Three key calculations were carried out using calculated fields.
-
+Three key calculations were carried out:
 ```
 Hired Count:
 case
@@ -75,10 +74,10 @@ The analysis of hiring trends for Data Analyst roles reveals several important p
 + The Digital Marketing Data Analyst role stands out with the highest hiring success rate of 99.95%, highlighting a strong alignment between candidate profiles and job requirements. Similarly, Manufacturing Data Analyst (22.91%) and Data Quality Analyst (20.77%) roles demonstrate high demand for specialized skills. In contrast, roles such as QA Data Analyst (4.68%) and Clinical Data Analyst (5.1%) have lower hiring rates, likely due to intense competition or stricter qualification standards.
 + The data also shows seasonal fluctuations in application volumes, with a peak in July when 3,138 applications were submitted. However, the number of hires remains relatively stable throughout the year, suggesting that hiring decisions are not heavily influenced by application surges.
 + Geographical trends reveal that New York City attracted the highest number of applications (4,650), followed by Chicago and San Francisco. This confirms their importance as major data-driven job markets. <br>
-Interestingly, Austin, TX, and Charlotte, NC, rank disproportionately high in job applications compared to their population sizes, reflecting their rapid growth as metropolitan areas. Austin ranks as the 5th city by job applications, despite being 26th in population according to the 2020 US Census. Similarly, Charlotte ranks as the 6th city by job applications, while it is only 22nd in population. This is not surprising, considering that both Austin and Charlotte have been among the fastest-growing metropolitan areas in the country. On the other hand, Washington, DC is a clear outlier. Despite being the 7th most populous city, it shows lower application volumes, given that the capital's economy is primarily driven by governmental jobs. <br>
+Interestingly, Austin, TX, and Charlotte, NC, rank disproportionately high in job applications compared to their population sizes. Austin ranks as the 5th city by job applications, despite being 26th in population according to the 2020 US Census. Similarly, Charlotte ranks as the 6th city by job applications, while it is only 22nd in population. This is not surprising, considering that both Austin and Charlotte have been among the fastest-growing metropolitan areas in the country. On the other hand, Washington, DC is a clear outlier. Although it is the 7th most populous city, it shows lower application volumes, given that the capital's economy is primarily driven by governmental jobs. <br>
 Los Angeles and San Diego show notably higher hiring rates at 22.67% and 22.81%, respectively, indicating strong demand for Data Analyst roles in these regions. <br>
 The top 10 cities collectively account for nearly half of all job applications, emphasizing the concentration of opportunities in major metropolitan areas. 
-+ Business Data Analyst and Data Quality Analyst roles dominate in terms of application volume, with 23.7% and 19%, respectively, demonstrating their popularity among candidates. Emerging roles like Digital Marketing Data Analyst and E-commerce Data Analyst reflect evolving industry demands for specialized skills.
++ Business Data Analyst and Data Quality Analyst roles dominate in terms of application volume, with 23.7% and 19% respectively, demonstrating their popularity among candidates. Emerging roles like Digital Marketing Data Analyst and E-commerce Data Analyst reflect evolving industry demands for specialized skills.
 
 ![Screenshot (3)](https://github.com/user-attachments/assets/fe15d863-eb11-4d4d-81d3-853392b55295)
 
